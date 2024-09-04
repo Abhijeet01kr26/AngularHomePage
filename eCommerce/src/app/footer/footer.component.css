@@ -1,0 +1,49 @@
+.footer {
+    background-color: black;
+    color: white;
+    margin-top: 2.5rem; 
+    text-align: center;
+    padding: 1.25rem 1.25rem; 
+}
+
+.footer-lg-padding {
+    padding-left: 5rem; 
+    padding-right: 5rem;
+}
+
+.footer-container {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.footer-sections {
+    padding: 0.75rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-column {
+    padding-left: 1rem; 
+    padding-right: 1rem;
+}
+
+.footer-title {
+    padding-bottom: 1.25rem; 
+    font-size: 1.125rem; 
+    font-weight: 600;
+    color: #6b7280; 
+}
+
+.footer-item {
+    margin-bottom: 0.5rem; 
+}
+
+.footer-bottom {
+    padding-top: 2.5rem; 
+    color: #9ca3af;
+}
+
+.footer-link {
+    color: white;
+    text-decoration: underline;
+}

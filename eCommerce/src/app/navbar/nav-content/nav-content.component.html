@@ -1,0 +1,33 @@
+<div class="full-width">
+  <div class="section-container">
+      <div class="section-content">
+          <div class="section-column" *ngFor="let item of category[selectedSection].sections">
+              <h1 class="section-title text-center">{{ item.name }}</h1>
+              <button (click)="navigateToProducts('/' + selectedSection + '/' + '/' + item.id + '/' + section.id )" mat-button *ngFor="let section of item.items">
+                  {{ section.name }}
+              </button>
+          </div>
+          <div class="image-container hidden lg:block">
+              <div class="image-wrapper">
+                  <img
+                      class="section-image"
+                      src="https://cdn.shopify.com/s/files/1/0049/3649/9315/products/koskii-yellow-printed-semicrepe-designer-readymadelehenga-gcrm0029461_yellow_1_1800x1800.jpg?v=1682068296"
+                      alt=""
+                  />
+              </div>
+              <p class="image-caption">New Arrival</p>
+          </div>
+          <div class="image-container hidden lg:block">
+              <div class="image-wrapper">
+                  <img
+                      class="section-image"
+                      src="https://cdn.shopify.com/s/files/1/0049/3649/9315/products/koskii-lemonyellow-threadwork-georgette-designer-readymadelehenga-gcrm0029810_lemon_yellow_1_1800x1800.jpg?v=1681290976"
+                      alt=""
+                  />
+              </div>
+              <p class="image-caption">Light Grey Zariwork Net Readymade Lehenga</p>
+              <p class="image-caption">{{selectedSection=="women"}}</p>
+          </div>
+      </div>
+  </div>
+</div>

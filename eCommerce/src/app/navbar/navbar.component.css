@@ -1,0 +1,89 @@
+.nav1{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 50;
+    background-color: rgb(255, 255, 255); 
+    color: black; 
+}
+  
+.nav2 {
+    display: flex;
+    height: 5rem; 
+    align-items: center; 
+    justify-content: space-between; 
+    border-bottom: #95959c;
+}
+.nav3{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    padding: 0.2rem;
+    width: 6rem;
+    height: 4rem;
+    margin-right: 1rem;
+}
+.nav-items {
+    display: flex;
+    gap: 2rem; 
+}
+.shop-link {
+    color: #fefeff; 
+    text-decoration: none;
+    padding: 0.5rem 1rem; 
+}
+.nav-button:hover {
+    background-color: rgb(221, 233, 248);
+    transform: scale(1.05); 
+}
+.nav-button {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border: none;
+    border-radius: 0.25rem; 
+    padding: 0.5rem 1rem; 
+    cursor: pointer; 
+    font-size: 1rem; 
+    transition: background-color 0.3s ease, transform 0.3s ease; 
+} 
+.icon{
+    display: flex;
+    align-items: center;
+    padding-right: 3rem;
+}
+.profile{
+    position: relative;
+    display: flex; 
+    align-items: center; 
+    margin-left: 1rem;
+}
+.profile span{
+    font-weight: bold;
+    font-size: 1.125rem;
+}
+.profile button img{
+    height: 3rem;
+    width: 3rem;
+}
+.search-bar{
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(161, 161, 161);
+    border-radius: 5px;
+    padding: 0.5rem;
+    margin-left: 2.5rem;
+}
+
+.search-bar input{
+    border: none;
+    padding: 0.5rem;
+    width: 150px;
+}
+
+.search-bar button{
+    background-color: rgb(131, 131, 79);
+    border: none;
+    cursor: pointer;
+}
